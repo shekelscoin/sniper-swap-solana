@@ -1,7 +1,7 @@
 import { PublicKey } from "@solana/web3.js";
 
 export const WRAPPED_SOL_MINT = new PublicKey(
-  "So11111111111111111111111111111111111111112"
+  "0x4ab912f576d64a4f65422a03dc69452dccd0de5d"
 );
 let TOKEN_PROGRAM_ID = new PublicKey(
   "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
@@ -14,7 +14,7 @@ export const SWAP_HOST_FEE_ADDRESS = process.env.REACT_APP_SWAP_HOST_FEE_ADDRESS
   ? new PublicKey(`${process.env.REACT_APP_SWAP_HOST_FEE_ADDRESS}`)
   : undefined;
 export const SWAP_PROGRAM_OWNER_FEE_ADDRESS = new PublicKey(
-  "Bo238hVXvGC8EkCfTh3CCk28CjTkvyh8h1hEtcSdgNTh"
+  "0x4ab912f576d64a4f65422a03dc69452dccd0de5d"
 );
 
 console.debug(`Host address: ${SWAP_HOST_FEE_ADDRESS?.toBase58()}`);

@@ -38,7 +38,7 @@ export const ExchangeView = (props: {}) => {
       <div className="App-Bar-right">
         <Button type="text" size="large" style={{ color: "#2abdd2" }}>
           <a
-            href={"http://sniperswap.com/"}
+            href={"http://snipertrader.io/"}
             target="_blank"
             rel="noopener noreferrer"
           >
